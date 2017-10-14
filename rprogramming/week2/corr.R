@@ -1,4 +1,4 @@
-setwd("/Users/rudyhidayat/Documents/coursera/rprogramming/week2")
+setwd("/Users/rudyhidayat/Documents/Github/coursera/rprogramming/week2")
 corr <- function(directory, threshold = 0) {
   # 'directory' is a character vector of length 1 indicating
   # the location of the CSV files
