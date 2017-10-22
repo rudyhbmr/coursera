@@ -8,5 +8,5 @@ names(rootNode)
 
 rootNode[[1]][[1]]
 
-zipcode <- xpathSApply(rootNode,"//zipcode",xmlValue)
-length(zipcode[zipcode==21231])
+zipcode <- xpathSApply(rootNode, "//zipcode", xmlValue)
+length(zipcode[zipcode == 21231])
